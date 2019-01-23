@@ -187,18 +187,8 @@
 	</dependencies>
 	<repositories>
 		<repository>
-			<snapshots />
 			<id>tigase</id>
-			<name>Tigase repository</name>
-			<url>https://maven-repo.tigase.net/repository/release</url>
-		</repository>
-		<repository>
-			<id>tigase-snapshot</id>
-			<name>Tigase repository</name>
-			<url>https://maven-repo.tigase.net/repository/snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
+			<url>http://maven-repo.tigase.org/repository/tigase</url>
 		</repository>
 	</repositories>
 	<distributionManagement>
